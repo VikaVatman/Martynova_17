@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Martynova_17.MainPage">
+
+    <StackLayout>
+        <Entry Placeholder="Введите число" x:Name="entryNumber" Keyboard="Numeric"/>
+        <Button x:Name="buttonResult" Text="Вывести факт" Clicked="ButtonResult_Clicked" />
+        <Label x:Name="lableResult" FontSize="20"/>
+    </StackLayout>
+</ContentPage>
